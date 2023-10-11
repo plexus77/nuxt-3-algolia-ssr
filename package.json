@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "autoprefixer": "^10.4.16",
+    "nuxt": "^3.7.4",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/algolia": "^1.9.0",
+    "@tabler/icons-vue": "^2.38.0",
+    "algoliasearch": "^4.20.0",
+    "composables": "^1.0.0",
+    "nuxt-algolia": "^0.2.0",
+    "vue-instantsearch": "^4.10.12",
+    "vue-server-renderer": "^2.7.14"
+  }
+}
